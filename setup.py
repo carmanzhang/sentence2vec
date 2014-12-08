@@ -1,5 +1,7 @@
 from setuptools import setup
 
+packages=['word2vec']
+
 setup(
     name = "sentence2vec",
     version = 1.0,
