@@ -1,6 +1,6 @@
 from setuptools import setup
 
-packages=['word2vec']
+packages=['sentence2vec']
 
 setup(
     name = "sentence2vec",
@@ -8,6 +8,6 @@ setup(
     author = "klb3713",
     author_email = "klbgyx7@gmail.com",
     url = "http://klb3713",
-    install_requires = ["scipy", "six"],
+    install_requires = ["scipy", "six", "gensim"],
     packages = packages
 )
