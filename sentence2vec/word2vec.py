@@ -78,7 +78,7 @@ from numpy import exp, dot, zeros, outer, random, dtype, get_include, float32 as
 logger = logging.getLogger("sent2vec")
 
 # from gensim import utils, matutils  # utility fnc for pickling, common scipy operations etc
-import utils, matutils  # utility fnc for pickling, common scipy operations etc
+from . import utils, matutils  # utility fnc for pickling, common scipy operations etc
 from six import iteritems, itervalues, string_types
 from six.moves import xrange
 
